@@ -8,7 +8,7 @@ const App = () => {
     setInput(data);
   }
   return (
-    <div>
+    <div className="parent">
         {/* Do not remove the main div */}
         <h1>Parent Component</h1>
         <p>{input}</p>
